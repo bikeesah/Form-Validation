@@ -1,0 +1,149 @@
+/* Body */
+body {
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Outer Box */
+.box-outer {
+  background: #ffffffcc;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.box-heading {
+  color: #007bff;
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+/* Inner Box */
+.box-inner {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Input Fields */
+.input-field, .input-select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  transition: 0.3s;
+}
+
+.input-field:focus, .input-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+/* Valid/Invalid Input */
+.input-field.valid { border-color: green; }
+.input-field.invalid { border-color: red; }
+
+/* Phone box */
+.phone-box {
+  display: flex;
+  gap: 10px;
+}
+
+/* Password toggle button */
+.pass-box {
+  position: relative;
+}
+
+.btn-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  padding: 2px 8px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-toggle:hover {
+  background: #0056b3;
+}
+
+/* Error messages */
+.error {
+  color: #ff4d4f;
+  font-size: 0.85rem;
+  margin-top: 3px;
+}
+
+/* Password strength */
+.strength {
+  font-size: 0.85rem;
+  margin-top: 3px;
+}
+
+/* Submit button */
+.btn-submit {
+  width: 100%;
+  background: #007bff;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.btn-submit:hover {
+  background: #0056b3;
+}
+
+/* Clear button */
+.btn-clear {
+  width: 100%;
+  background: #ccc;
+  color: black;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-clear:hover {
+  background: #aaa;
+}
+
+/* Success message */
+.success-msg {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media(max-width: 576px) {
+  .phone-box {
+    flex-direction: column;
+  }
+}
