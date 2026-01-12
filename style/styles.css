@@ -1,6 +1,6 @@
 /* Body */
 body {
-  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  background: linear-gradient(135deg, #97bcf7, #c2e9fb);
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@ body {
 
 /* Outer Box */
 .box-outer {
-  background: #ffffffcc;
+  background: #72cbdfcc;
   padding: 30px;
   border-radius: 20px;
   text-align: center;
@@ -27,7 +27,7 @@ body {
 
 /* Inner Box */
 .box-inner {
-  background: #fff;
+  background: #6fbcec;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
@@ -44,14 +44,14 @@ body {
   width: 100%;
   padding: 10px 12px;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid #080808;
   margin-top: 5px;
   transition: 0.3s;
 }
 
 .input-field:focus, .input-select:focus {
   border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+  box-shadow: 0 0 5px rgba(154, 182, 212, 0.3);
 }
 
 /* Valid/Invalid Input */
@@ -114,7 +114,7 @@ body {
 }
 
 .btn-submit:hover {
-  background: #0056b3;
+  background: #8fbbe9;
 }
 
 /* Clear button */
