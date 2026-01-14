@@ -4,7 +4,7 @@
 ## Overview
 This is a modern registration form built using HTML, CSS, JavaScript, and Bootstrap. Features include input validation, password strength indicator, show/hide password, terms & conditions validation, and responsive card layout.
 
-**Live Demo:** [Insert your Netlify link here]
+**Live Demo:** [(https://formifypro.netlify.app)]
 
 ## Features
 - Full Name, Email, Phone Number, Password, and Confirm Password
